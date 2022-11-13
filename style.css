@@ -1,0 +1,53 @@
+body
+{
+    background-color: lightblue;
+
+}
+
+#score
+{
+    font-size: 40px;
+    margin-left: 30px;
+
+}
+
+#timer
+{
+    font-size: 40px;
+    margin-right: 100px;
+    float:right;
+
+}
+
+h1
+{
+    color: blue;
+    background-color: lime;
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example 
+{
+    from {box-shadow:1px 1px 38px lightgreen ;}
+    to {box-shadow:1px 1px 38px red ;}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
